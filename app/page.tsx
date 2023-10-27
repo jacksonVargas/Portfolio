@@ -19,8 +19,8 @@ export default function Home() {
           <p className={`text-xl text-zinc-200 mb-8`}>Desenvolvedor Web Front-End</p>
           
           <div className={`flex flex-wrap items-center`}>
-            <button className={`py-2 px-5 bg-blue-600 hover:bg-white hover:text-black text-white rounded`}><Link href='#'>Veja Meus Projetos</Link></button>
-            <button className={`py-2 ml-3 px-5 bg-blue-600 hover:bg-white hover:text-black text-white rounded`}><Link href='#'>Sobre</Link></button>
+            <button className={`py-2 px-5 bg-blue-600 hover:bg-white hover:text-black text-white rounded`}><Link href='/projetos'>Veja Meus Projetos</Link></button>
+            <button className={`py-2 ml-3 px-5 bg-blue-600 hover:bg-white hover:text-black text-white rounded`}><Link href='/sobre'>Sobre</Link></button>
           </div>
         </div>
       </section>
