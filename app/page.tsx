@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export const metadata : Metadata = {
-  title: 'Início'
+  title: 'Portfólio - Início'
 }
 
 export default function Home() {
