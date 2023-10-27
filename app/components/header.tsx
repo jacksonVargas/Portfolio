@@ -36,7 +36,7 @@ export default function Header() {
             <Link className={`mb-5 ml-3 hover:text-blue-600 link ${pathname === '/projetos' ? 'text-blue-600' : 'text-zinc-200'}`} href='/projetos'>Projetos</Link>
             <Link className={`mb-5 ml-3 hover:text-blue-600 link ${pathname === '/contato' ? 'text-blue-600' : 'text-zinc-200'}`} href='/contato'>Contato</Link>
           
-            <div className={`flex items-center absolute bottom-10 left-5`}>
+            <div className={`flex items-center absolute bottom-20 left-5`}>
               <Link className={`text-xl text-zinc-200 hover:text-blue-600`} href='https://github.com/jacksonVargas' target='_blank'><FaGithub /></Link>
               <Link className={`text-xl ml-5 text-zinc-200 hover:text-blue-600`} href='https://www.linkedin.com/in/jackson-vargas-29a486287/' target='_blank'><FaLinkedin /></Link>
             </div>
