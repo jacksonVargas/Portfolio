@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import HeaderProjetos from '../components/headerProjetos'
+import Header from '../components/header'
 import Link from 'next/link'
 
 export const metadata : Metadata = {
@@ -9,10 +9,10 @@ export const metadata : Metadata = {
 export default function Projetos() {
   return(
     <>
-      <HeaderProjetos />
+      <Header />
 
       <section className={`w-full h-screen px-56 max-lg:px-20 max-md:p-3 mb-20`}>
-        <h1 className={`pt-24 font-semibold mb-20 text-center text-zinc-200 text-4xl`}>💻 Veja os Projetos Feitos com Next.js e TailwindCss</h1>
+        <h1 className={`pt-24 font-semibold mb-10 text-center text-zinc-200 text-4xl`}>💻 Projetos Next.js e TailwindCss</h1>
       
         <div className={`flex justify-center items-center flex-wrap`}>
           <div className={`cursor-pointer hover:border-white duration-300 w-full max-w-[320px] h-auto border border-zinc-700 rounded m-5`}>
