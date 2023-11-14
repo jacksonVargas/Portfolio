@@ -22,7 +22,7 @@ export default function Home() {
           </p>
             <br />
           <p className={`text-zinc-200 text-md`}>
-            Este portfólio está sendo construido em <Link href='https://nextjs.org/docs' target='_blank' className={`text-blue-600 `}>Next.js</Link> e <Link href='https://tailwindcss.com/docs/installation' target='_blank' className={`text-blue-600 `}>TailwindCss </Link> , duas tecnologias que atenderam
+            Este portfólio está sendo construido em <Link href='https://nextjs.org/docs' target='_blank' className={`text-blue-600 `}>Next.js</Link> e <Link href='https://tailwindcss.com/docs/installation' target='_blank' className={`text-blue-600 `}>TailwindCss</Link>, duas tecnologias que atenderam
             muito bem minhas necessidades na hora de construir layouts modernos e bonitos.
           </p>
             <br />
