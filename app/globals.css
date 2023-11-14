@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 5px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: royalblue;
+}
+
 body {
   background: black;
 }
